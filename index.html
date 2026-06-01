@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/fonts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header__top">
+        <a class="header__top-logo" href="index.html">ADAM DACHNAEW</a>
+        <a class="burger">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="30" height="30"><path d="M22.5,18a1.5,1.5,0,0,1-1.061-.44L13.768,9.889a2.5,2.5,0,0,0-3.536,0L2.57,17.551A1.5,1.5,0,0,1,.449,15.43L8.111,7.768a5.505,5.505,0,0,1,7.778,0l7.672,7.672A1.5,1.5,0,0,1,22.5,18Z"/></svg>
+        </a>
+        <article class="header__top-article">
+          <nav class="header__top-nav">
+            <a href="#about" class="header__top-link">Обо мне</a>
+            <a href="#projects" class="header__top-link">Проекты</a>
+            <a href="#services" class="header__top-link">Услуги</a>
+            <a href="#testmonials" class="header__top-link">Отзывы</a>
+          </nav>
+          <button class="button">
+            <a href="#contact">Связаться со мной</a>
+          </button>
+        </article>
+      </div>
+      <div class="header__boby">
+        <div class="container">
+          <div class="header__body-inner">
+            <p class="header__body-title">Мой сайт поднимет вам <span>продажи</span></p>
+            <p class="header__body-subtitle">
+              Вёрстка, фронтенд, настройка простых сайтов под ключ.
+              Без сложных CMS, только чистый код и ваш контроль.
+            </p>
+            <div class="header__btnbox">
+              <button class="header__button button">
+                <a href="#services" target="_blank">
+                  Заказать сайт
+                </a>
+              </button>
+              <button class="header__button empty__button">
+                <a href="projects.html" target="_blank">
+                  Смотреть портфолио
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main__about" id="about">
+        <div class="container">
+          <div class="main__about-inner">
+            <h1 class="title">Обо мне</h1>
+            <article class="about__content">
+              <div class="about__image">
+                <img src="IMAGES/about.jpg" alt="">
+              </div>
+              <p class="subtitle">
+                Адам — <span>фронтенд-разработчик</span> 
+                из небольшой Кабардино-Балкарии.
+              </p>
+              <p class="text about__text">
+                Меня зовут Адам. Я делаю сайты, которые не просто 
+                красиво выглядят, а выполняют задачи: продают, 
+                информируют, помогают вашему бизнесу расти.
+                Работаю честно — без скрытых платежей и с полной отдачей.
+              </p>
+              <h3>Чем я владею?</h3>
+              <ul class="about__skills">
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JS
+                </li>
+              </ul>
+              <h4>Гарантирую:</h4>
+              <ul class="header__bottom">
+            <li class="header__bottom-item header__bottom-item1">
+              <p>Работа по договору</p>
+            </li>
+            <li class="header__bottom-item header__bottom-item2">
+              <p>Оплата поэтапно</p>
+            </li>
+            <li class="header__bottom-item header__bottom-item3">
+              <p>Фиксированные сроки</p>
+            </li>
+            <li class="header__bottom-item header__bottom-item4">
+              <p>Бесплатная консультация</p>
+            </li>
+          </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="main__pluses">
+        <div class="container">
+          <div class="main__pluses-inner">
+            <h1 class="pluses__title">
+              <span>Преимущества</span> работы со мной:
+            </h1>
+            <ul class="pluses__spisok">
+              <li class="pluses__spisok-item">
+                <div class="pluses__spisok-icon">
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30">
+                    <path d="M3.5,21H24v3H3.5c-1.93,0-3.5-1.57-3.5-3.5V0H3V20.5c0,.276,.224,.5,.5,.5ZM16,4v3h2.879l-4.379,4.379-4-4-5.561,5.561,2.121,2.121,3.439-3.439,4,4,6.5-6.5v2.879h3V4h-8Z"/>
+                  </svg>
+                </div>
+                <p class="pluses__spisok-title">
+                  Реклама Яндекс Директ
+                </p>
+                <p class="pluses__spisok-text">
+                  Подключаю контекстную рекламу, которая
+                  приводит целевых пользователей уже с 
+                  первого дня после запуска. Сайт начинает
+                  работать и приносить клиентов сразу.
+                </p>
+              </li>
+              <li class="pluses__spisok-item">
+                <div class="pluses__spisok-icon">
+                  <svg id="Layer_1" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m5 11.5a1.5 1.5 0 0 1 1.5-1.5h11a1.5 1.5 0 0 1 0 3h-11a1.5 1.5 0 0 1 -1.5-1.5zm1.5 6.5h7a1.5 1.5 0 0 0 0-3h-7a1.5 1.5 0 0 0 0 3zm17.5-11.5v11a5.506 5.506 0 0 1 -5.5 5.5h-13a5.506 5.506 0 0 1 -5.5-5.5v-11a5.506 5.506 0 0 1 5.5-5.5h13a5.506 5.506 0 0 1 5.5 5.5zm-16-2a1.5 1.5 0 1 0 1.5-1.5 1.5 1.5 0 0 0 -1.5 1.5zm-5 0a1.5 1.5 0 1 0 1.5-1.5 1.5 1.5 0 0 0 -1.5 1.5zm18 3.5h-18v9.5a2.5 2.5 0 0 0 2.5 2.5h13a2.5 2.5 0 0 0 2.5-2.5z"/></svg>
+                </div>
+                <p class="pluses__spisok-title">
+                  Готовый продукт под ключ
+                </p>
+                <p class="pluses__spisok-text">
+                  Вы получаете полностью готовый сайт с 
+                  настроенной рекламой. Никаких
+                  незавершённых задач, технических — 
+                  только готовый рабочий инструмент для 
+                  вашего бизнеса.
+                </p>
+              </li>
+              <li class="pluses__spisok-item">
+                <div class="pluses__spisok-icon">
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M20.5,6H5.5c-.789,0-1.53-.376-2-.999,.457-.607,1.184-1.001,2-1.001H22.5c1.972-.034,1.971-2.967,0-3H5.5C2.468,1,0,3.467,0,6.5v11c0,3.033,2.468,5.5,5.5,5.5h15c1.93,0,3.5-1.57,3.5-3.5V9.5c0-1.93-1.57-3.5-3.5-3.5Zm.5,13.5c0,.276-.225,.5-.5,.5H5.5c-1.379,0-2.5-1.122-2.5-2.5V8.396c.763,.39,1.618,.604,2.5,.604h15c.275,0,.5,.224,.5,.5v10Zm-2-5c-.034,1.972-2.967,1.971-3,0,.034-1.972,2.967-1.971,3,0Z"/></svg>
+                </div>
+                <p class="pluses__spisok-title">
+                  Поэтапная оплата
+                </p>
+                <p class="pluses__spisok-text">
+                  Платите не всю сумму за раз, а поэтапно. 
+                  Например, 30% на старте,
+                  остальное после сдачи этапов. Если
+                  результат не устраивает — вы не платите дальше.
+                </p>
+              </li>
+              <li class="pluses__spisok-item">
+                <div class="pluses__spisok-icon">
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="M18,8.5A2.5,2.5,0,1,1,15.5,6,2.5,2.5,0,0,1,18,8.5Zm-1.341,9.213a11.038,11.038,0,0,1-.828,2.222A7.634,7.634,0,0,1,9,24H8V19.143A3.214,3.214,0,0,0,4.857,16H0V15A7.634,7.634,0,0,1,4.065,8.169a11.038,11.038,0,0,1,2.222-.828C9.96,2.38,14.221.178,20.458,0H20.5A3.489,3.489,0,0,1,24,3.551C23.82,9.877,21.686,14,16.659,17.713ZM21,3.508A.5.5,0,0,0,20.515,3c-5.461.162-8.839,1.966-12.038,6.431a28.441,28.441,0,0,0-2.206,3.737,6.287,6.287,0,0,1,4.561,4.561,28.376,28.376,0,0,0,3.737-2.206C19.042,12.317,20.846,8.949,21,3.508ZM1.631,18.728C.857,19.5.38,21.831.211,22.8L0,24l1.2-.212c.961-.17,3.278-.649,4.052-1.425a2.58,2.58,0,0,0,0-3.635A2.613,2.613,0,0,0,1.631,18.728Z"/></svg>
+                </div>
+                <p class="pluses__spisok-title">
+                  Бесплатная поддержка месяц после сдачи
+                </p>
+                <p class="pluses__spisok-text">
+                  После того как сайт передан и оплачен, я не исчезаю.
+                  В течение 30 дней я бесплатно исправляю мелкие баги, 
+                  правлю опечатки, отвечаю на вопросы.
+                  Если что-то сломалось — чиню без доплат.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="main__howwork">
+        <div class="container">
+          <div class="main__howwork-inner">
+            <h1 class="howwork__title">
+              Как я <span>работаю</span>?
+            </h1>
+            <div class="howwork__content">
+              <ul class="howwork__etaps">
+                <li class="howwork__etaps-item">
+                  <p class="howwork__etaps-number">
+                    01
+                  </p>
+                  <p class="howwork__etaps-about">
+                    <span>Заявка</span> — вы пишите в Telegramm
+                    или WhatsApp.
+                  </p>
+                </li>
+                <li class="howwork__etaps-item">
+                  <p class="howwork__etaps-number">
+                    02
+                  </p>
+                  <p class="howwork__etaps-about">
+                    <span>Брифинг</span> — обсуждаем задачу, 
+                    сроки, бюджет, подписываем договор.
+                  </p>
+                </li>
+                <li class="howwork__etaps-item">
+                  <p class="howwork__etaps-number">
+                    03
+                  </p>
+                  <p class="howwork__etaps-about">
+                    <span>Разработка</span> — я делаю макет/вёрстку/скрипты,
+                    вы получаете промежуточные результаты.
+                  </p>
+                </li>
+                <li class="howwork__etaps-item">
+                  <p class="howwork__etaps-number">
+                    04
+                  </p>
+                  <p class="howwork__etaps-about">
+                    <span>Приёмка</span> — вы проверяете сайт,
+                    вносим правки, финальная оплата.
+                  </p>
+                </li>
+                <li class="howwork__etaps-item">
+                  <p class="howwork__etaps-number">
+                    05
+                  </p>
+                  <p class="howwork__etaps-about">
+                    <span>Передача</span> — передаю исходники, 
+                    размещаю на хостинге, обучаю работе.
+                  </p>
+                </li>
+              </ul>
+              <div class="howwork__image">
+                <img src="IMAGES/etaps.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__projects" id="projects">
+        <div class="container">
+          <div class="main__projects-inner">
+            <h1 class="title">Проекты</h1>
+            <article class="projects__content">
+              <div class="projects__image">
+                <img src="IMAGES/projects.jpg" alt="">
+              </div>
+              <p class="subtitle">
+                Дабы увидеть проекты, 
+                нужно перейти по ссылке на другую страницу.
+              </p>
+              <p class="text">
+                Все проекты в портфолио распределены по ключевым 
+                навыкам, которые они демонстрируют. Это позволяет 
+                не только увидеть результат, но и понять, какими 
+                технологиями я владею. Вы легко найдёте примеры 
+                вёрстки, сложные JavaScript‑решения 
+                и другие работы — каждая в своей секции. 
+                Переходите к проектам и оценивайте то, 
+                что ближе вашей задаче.
+              </p>
+              <button class="projects__button button">
+                <a href="projects.html">Перейти к проектам</a>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="main__services" id="services">
+        <div class="container">
+          <div class="main__services-inner">
+            <h1 class="title services__spisok-title">
+              Мои <span>услуги</span>:
+            </h1>
+            <ul class="services__spisok">
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/1.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Лендинг
+                  </h3>
+                  <p class="services__spisok-info">
+                    Вёрстка HTML/CSS, 3 — 6 блоков, адаптив, без сложного бекэнда
+                  </p>
+                  <p class="services__spisok-price">
+                    10 000 — 18 000 ₽
+                  </p>
+                </div>
+              </li>
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/2.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Многостраничный сайт
+                  </h3>
+                  <p class="services__spisok-info">
+                    Вёрстка всех страниц, 3 — 5 страниц, меню, без сложного бэкенда
+                  </p>
+                  <p class="services__spisok-price">
+                    18 000 —  30 000 ₽
+                  </p>
+                </div>
+              </li>
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/3.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Отдельный JS-компонент
+                  </h3>
+                  <p class="services__spisok-info">
+                    Фильтр товаров, интерактивная карта, калькулятор, попап с формой и т.д.
+                  </p>
+                  <p class="services__spisok-price">
+                    2 000 —  8 000 ₽
+                  </p>
+                </div>
+              </li>
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/4.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Посадка на GitHub Pages
+                  </h3>
+                  <p class="services__spisok-info">
+                    Создание репозитория, загрузка файлов сайта, активация и настройка
+                  <p class="services__spisok-price">
+                    1 000 —  2 000 ₽
+                  </p>
+                </div>
+              </li>
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/5.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Адаптив сайта
+                  </h3>
+                  <p class="services__spisok-info">
+                    Адаптация существующего сайта, правка CSS, медиазапросы
+                  </p>
+                  <p class="services__spisok-price">
+                    3 000 —  7 000 ₽
+                  </p>
+                </div>
+              </li>
+              <li class="services__spisok-item">
+                <div class="services__spisok-image">
+                  <img src="IMAGES/services/6.jpg" alt="">
+                </div>
+                <div class="services__spisok-content">
+                  <h3 class="services__spisok-subtitle">
+                    Почасовая работа
+                  </h3>
+                  <p class="services__spisok-info">
+                    Доработка чужого кода, исправление багов, работа без чёткого ТЗ
+                  </p>
+                  <p class="services__spisok-price">
+                    1 000 ₽/час
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="main__testmonials" id="testmonials">
+        <div class="container">
+          <div class="main__testmonials-inner">
+            <h1 class="title">Отзывы</h1>
+            <div class="testmonials__prev slick-prev arrow">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="30" height="30"><path d="M19,10.5H10.207l2.439-2.439a1.5,1.5,0,0,0-2.121-2.122L6.939,9.525a3.505,3.505,0,0,0,0,4.95l3.586,3.586a1.5,1.5,0,0,0,2.121-2.122L10.207,13.5H19a1.5,1.5,0,0,0,0-3Z"/></svg>
+            </div>
+            <div class="main__testmonials-content">
+              <div class="main__testmonials-item">
+                <div class="testmonials__hastag">
+                  <img src="IMAGES/icons/hastag.svg" alt="">
+                </div>
+                <h4>Отзывов нет</h4>
+              </div>
+              <div class="main__testmonials-item">
+                <div class="testmonials__hastag">
+                  <img src="IMAGES/icons/hastag.svg" alt="">
+                </div>
+                <h4>Отзывов нет</h4>
+              </div>
+              <div class="main__testmonials-item">
+                <div class="testmonials__hastag">
+                  <img src="IMAGES/icons/hastag.svg" alt="">
+                </div>
+                <h4>Отзывов нет</h4>
+              </div>
+              <div class="main__testmonials-item">
+                <div class="testmonials__hastag">
+                  <img src="IMAGES/icons/hastag.svg" alt="">
+                </div>
+                <h4>Отзывов нет</h4>
+              </div>
+              <div class="main__testmonials-item">
+                <div class="testmonials__hastag">
+                  <img src="IMAGES/icons/hastag.svg" alt="">
+                </div>
+                <h4>Отзывов нет</h4>
+              </div>
+            </div>
+            <div class="testmonials__next slick-next arrow">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="30" height="30"><path d="M17.061,9.525,13.475,5.939a1.5,1.5,0,0,0-2.121,2.122L13.793,10.5H5a1.5,1.5,0,0,0,0,3h8.793l-2.439,2.439a1.5,1.5,0,0,0,2.121,2.122l3.586-3.586A3.505,3.505,0,0,0,17.061,9.525Z"/></svg>
+            </div>
+            <div class="testmonials__dots"></div>
+            <div class="testmonials__btnbox">
+              <button class="button">
+                <a href="#services">Заказать сайт</a>
+              </button>
+              <button class="empty__button">
+                <a href="https://t.me/dachnaew" target="_blank">Больше отзывов тут</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__faq">
+        <div class="container">
+          <div class="main__faq-inner">
+            <h1 class="faq__title">
+              Часто задаваемые <span>вопросы</span>:
+            </h1>
+            <ul class="faq__questions">
+              <li class="faq__questions-item">
+                <p class="faq__questions-question">
+                  Какие сроки?
+                </p>
+                <p class="faq__questions-answer">
+                  От 3 до 14 дней в зависимости от сложности.
+                </p>
+              </li>
+              <li class="faq__questions-item">
+                <p class="faq__questions-question">
+                  Нужно ли оплачивать сразу 100%?
+                </p>
+                <p class="faq__questions-answer">
+                  Нет, разбиваем на этапы.
+                </p>
+              </li>
+              <li class="faq__questions-item">
+                <p class="faq__questions-question">
+                  Вы вносите правки бесплатно?
+                </p>
+                <p class="faq__questions-answer">
+                  Да, до 3 итераций по макету/функционалу.
+                </p>
+              </li>
+              <li class="faq__questions-item">
+                <p class="faq__questions-question">
+                  Что, если я недоволен результатом?
+                </p>
+                <p class="faq__questions-answer">
+                  Возврат за невыполненый этап по договору.
+                </p>
+              </li>
+              <li class="faq__questions-item">
+                <p class="faq__questions-question">
+                  Кому принадлежат исходники?
+                </p>
+                <p class="faq__questions-answer">
+                  После полной оплаты — Вам.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="main__contact" id="contact">
+        <div class="container">
+          <h1 class="title">Контакты</h1>
+          <div class="main__contact-inner">
+            <div class="contact__image">
+              <img src="IMAGES/cat.jpg" alt="">
+            </div>
+            <article class="contact__content">
+              <p class="subtitle">Напишите мне</p>
+              <p class="contact__content-about">
+                Итак, по ссылкам ниже вы легко можете перейти на мои соцсети, 
+                дабы сделать заказ и согласовать его со мной.
+              </p>
+              <div class="contact__content-btnbox">
+                <button class="contact__content-tg">
+                  <a href="https://t.me/lil_xap4a" target="_blank">
+                    Telegramm
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M 20.302734 2.984375 C 20.013769 2.996945 19.748583 3.080055 19.515625 3.171875 C 19.300407 3.256634 18.52754 3.5814726 17.296875 4.0976562 C 16.06621 4.61384 14.435476 5.2982348 12.697266 6.0292969 C 9.2208449 7.4914211 5.314238 9.1361259 3.3125 9.9785156 C 3.243759 10.007156 2.9645852 10.092621 2.65625 10.328125 C 2.3471996 10.564176 2.0039062 11.076462 2.0039062 11.636719 C 2.0039062 12.088671 2.2295201 12.548966 2.5019531 12.8125 C 2.7743861 13.076034 3.0504903 13.199244 3.28125 13.291016 L 3.28125 13.289062 C 4.0612776 13.599827 6.3906939 14.531938 6.9453125 14.753906 C 7.1420423 15.343433 7.9865895 17.867278 8.1875 18.501953 L 8.1855469 18.501953 C 8.3275588 18.951162 8.4659791 19.243913 8.6582031 19.488281 C 8.7543151 19.610465 8.8690398 19.721184 9.0097656 19.808594 C 9.0637596 19.842134 9.1235454 19.868148 9.1835938 19.892578 C 9.191962 19.896131 9.2005867 19.897012 9.2089844 19.900391 L 9.1855469 19.894531 C 9.2029579 19.901531 9.2185841 19.911859 9.2363281 19.917969 C 9.2652427 19.927926 9.2852873 19.927599 9.3242188 19.935547 C 9.4612233 19.977694 9.5979794 20.005859 9.7246094 20.005859 C 10.26822 20.005859 10.601562 19.710937 10.601562 19.710938 L 10.623047 19.695312 L 12.970703 17.708984 L 15.845703 20.369141 C 15.898217 20.443289 16.309604 21 17.261719 21 C 17.829844 21 18.279025 20.718791 18.566406 20.423828 C 18.853787 20.128866 19.032804 19.82706 19.113281 19.417969 L 19.115234 19.416016 C 19.179414 19.085834 21.931641 5.265625 21.931641 5.265625 L 21.925781 5.2890625 C 22.011441 4.9067171 22.036735 4.5369631 21.935547 4.1601562 C 21.834358 3.7833495 21.561271 3.4156252 21.232422 3.2226562 C 20.903572 3.0296874 20.591699 2.9718046 20.302734 2.984375 z M 19.908203 5.1738281 C 19.799442 5.7198576 17.33401 18.105877 17.181641 18.882812 L 13.029297 15.041016 L 10.222656 17.414062 L 11 14.375 C 11 14.375 16.362547 8.9468594 16.685547 8.6308594 C 16.945547 8.3778594 17 8.2891719 17 8.2011719 C 17 8.0841719 16.939781 8 16.800781 8 C 16.675781 8 16.506016 8.1197812 16.416016 8.1757812 C 15.272368 8.8887854 10.401283 11.664685 8.0058594 13.027344 C 7.8617016 12.96954 5.6973962 12.100458 4.53125 11.634766 C 6.6055146 10.76177 10.161156 9.2658083 13.472656 7.8730469 C 15.210571 7.142109 16.840822 6.4570977 18.070312 5.9414062 C 19.108158 5.5060977 19.649538 5.2807035 19.908203 5.1738281 z M 17.152344 19.025391 C 17.152344 19.025391 17.154297 19.025391 17.154297 19.025391 C 17.154252 19.025621 17.152444 19.03095 17.152344 19.03125 C 17.153615 19.024789 17.15139 19.03045 17.152344 19.025391 z"/></svg>
+                  </a>
+                </button>
+                <button class="contact__content-wa">
+                  <a href="https://wa.me/qr/XIOYADYMHMN3C1" target="_blank">
+                    WhatsApp
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                    <g id="WA_Logo">
+	                    <g>
+		                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+	                    </g>
+                    </g>
+                    </svg>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <a class="footer-logo" href="index.html">ADAM DACHNAEW</a>
+          <p class="footer__copywrite">
+            © 2026` — Адам. Все права защищены
+          </p>
+          <ul class="footer__linkbox">
+            <li class="footer__linkbox-item">
+              <a href="https://t.me/lil_xap4a" target="_blank">Telegramm</a>
+            </li>
+            <li class="footer__linkbox-item">
+              <a href="https://wa.me/qr/XIOYADYMHMN3C1" target="_blank">WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Slick Slider -->
+<script src="JS/slick.min.js"></script>
+
+<script src="JS/main.js"></script>
+
+</html>
