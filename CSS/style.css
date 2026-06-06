@@ -1002,6 +1002,11 @@ footer{
     display: none;
   }
 }
+@media (max-width: 600px) {
+  .faq__questions-question{
+    width: 300px;
+  }
+}
 @media (max-width: 550px) {
   .header__btnbox {
     width: 100%;
@@ -1088,6 +1093,7 @@ footer{
   }
   .faq__questions-question{
     font-size: 18px;
+    width: 200px;
   }
   .faq__questions-answer{
     font-size: 18px;
